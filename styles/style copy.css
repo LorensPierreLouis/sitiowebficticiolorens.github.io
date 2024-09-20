@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primario: 	#ebd9c7;
+    --color-secundario:#0f0e0e;
+    --color-terciario:#373A40;
+    --color-cuaternario:#4a4d9a;
+    --color-quinto:#5d9593;
+    --color-texto:	#000000;
+    --color-parrafo-redes:#9d0707;
+    --fuente-primario:"Roboto Condensed", sans-serif;
+    --fuente-secundario: "Krona One", sans-serif;
+
+}
+
+/*header*/
+
+.header-menu-link:hover{
+    color: rgb(165, 92, 31);
+}
+.menu2:visited{
+    color: rgb(165, 92, 31); 
+}
+
+/*presentacion de about*/
+
+.presentacion2{
+   
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    gap: 15px;
+    
+}
+/*presentacion2 y sección*/
+.presentacion2_seccion1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.presentacion2_seccion1-titulo{
+    font-size: 1.1rem;
+    font-family: var(--fuente-secundario);
+    color: var(--color-parrafo-redes);
+    padding-left: 30px;
+}
+
+.presentacion2_seccion1-parrafo{
+    text-align: justify;
+    font-size: 1.1rem;
+    font-family: var(--fuente-primario);
+    color: var(--color-secundario);
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+/*Figura de la presentacion 2*/
+.figura2_imagen_texto{
+    width: 100%;
+}
+
+.figura2_imagen{
+    width: 100%;
+    height: 250px;
+
+}
+
+.texto2_imagen{
+    text-align: center;
+     font-size: 0.75rem;
+     color: var(--color-texto);
+     text-transform: lowercase;
+}
+
+
+@media(min-width:600px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /*presentacion2*/
+    .presentacion2{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+    
+        
+    }
+  /*Figura de la presentacion 2*/
+    .figura2_imagen_texto{
+    padding-bottom: 30px;
+
+    }
+    
+    .figura2_imagen{
+
+        width: 300px;
+        padding-right: 15px;
+        
+       }
+
+
+}   
