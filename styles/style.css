@@ -127,7 +127,7 @@
     .presentacion_redes-titulo{
         font-size: 1.2rem;
         font-family: var(--fuente-primario);
-        color: var(--color-parrafo-redes);
+        color: #0c283b;
        
     }
 
@@ -220,7 +220,9 @@
 /*FOOTER*/
     .pie_pagina{
         background-color: var(--color-quinto);
-        padding: 20px;
+        padding: 40px;
+        margin-top: 10px;
+        
     }
 
     .pie_pagina-parrafo{
